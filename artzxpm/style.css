@@ -1,0 +1,31 @@
+@charset "utf-8";
+body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, textarea, form, select, fieldset, table, td, div, input {margin:0;padding:0;text-size-adjust: none}
+h1, h2, h3, h4, h5, h6{font-size:12px;font-weight:normal}
+body>div{margin:0 auto}
+div {text-align:left}
+a img {border:0}
+body { color: #333; text-align: center; font: 12px "宋体"; }
+ul, ol, li {list-style-type:none;vertical-align:0}
+a {outline-style:none;color:#535353;text-decoration:none}
+a:hover { color: #D40000; text-decoration: none}
+
+.mt14{margin-top:14px;}
+.mr_t1 {height:40px; padding-right:16px;margin:30px 0px;; }
+.mr_t1 span{font-size:30px;margin-left: 10px;color:#999999;}
+.mr_t1name { font: 30px/40px "微软雅黑"; color: #111111;  height: 40px; float: left; }
+.mr_t1name img { float: left; margin-top:30px;display: inline; }
+.mr_frbox { height: 140px; border-right: 1px solid #DEDEDE; border: 1px solid #DEDEDE; border-left: 1px solid #DEDEDE; padding:24px 22px 0px; }
+.mr_frBtnL { float: left; margin: 28px 22px 0px 0px; cursor: pointer; display: inline; }
+.mr_frUl { float: left; height: 130px; width:828px; padding-left:20px;}
+.mr_frBtnR { float: right; margin-top: 28px; cursor: pointer; }
+.mr_frUl ul li { display: inline; float: left; height: 115px; width: 125px; margin-right: 13px; overflow: hidden; }
+.mr_frUl ul li img { display: block; margin-bottom: 7px; border: 1px solid #D8D8D8; }
+
+/*底部*/
+.entrybottom{margin-top:30px;background:#262626;padding:10px 0;height:166px;}
+.entrybottom dl{float:left;margin-left:100px;}
+.entrybottom dt a{font-size:20px;color:#eeeeee;line-height:50px;}
+.entrybottom dd a{font-size:14px;color:#cccccc;line-height:26px;background:url("icon.png")/*tpa=http://www.artzxpm.com/views/default/images/icon.png*/ no-repeat 5px;padding-left:20px;}
+.foot{background:#262626;line-height:60px;color:#999999;text-align: center;border-top:1px solid #333;font-size: 14px;}
+
+.footer_b ul .cx{ color:red;  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>在线留言-艺术在线</title>
+<meta name="keywords" content="在线留言,艺术在线" /> 
+<meta name="description" content="艺术在线" /> 
+<script type="text/javascript" src="jquery.min.js" tppabs="http://www.artzxpm.com/views/default/js/jquery.min.js"></script>
+<link href="default_2.css" tppabs="http://www.artzxpm.com/views/default/css/default_2.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="subCont">
+<form name="form" id="form" method="post" action="http://www.artzxpm.com/index.php?c=form&a=post&modelid=7">
+<span class="msgtitle">您的姓名：</span>
+<input name="data[xingming]" required type="text" id="nickname" class="msg_input" />
+<div class="hr_10"></div>
+<div class="hr_10"></div>
+<span class="msgtitle">联系方式：</span>
+<input name="data[dianhua]" required type="text" id="contact" class="msg_input" />
+<div class="hr_10"></div>
+<div class="hr_10"></div><span class="msgtitle">内　容：</span><textarea name="data[neirong]" class="msg_input" required style="width:400px;height:180px;overflow:auto;" id="content" ></textarea><div class="hr_10"></div><div class="hr_10"></div>
+<!--  <span class="msgtitle">验证码：</span><input name="validate" type="text" id="validate" class="msg_input" style="width:120px;margin-right:5px;" /> 
+<span><img id="ckstr" src="/index.php?c=api&a=captcha&width=80&height=25" title="看不清？点击更换" align="absmiddle" style="cursor:pointer;" onClick="this.src=this.src+'?'" /> <a href="javascript:;" onClick="var v=document.getElementById('ckstr');v.src=v.src+'?';return false;">看不清?</a></span><br /> -->
+
+ <div class="hr_10"></div><div class="hr_10"></div><div class="msg_btn_area"><input  style="display: inline-block;
+    padding: 5px 15px;
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;" name="submit" type="submit" value="提交" class="anniu" /> </div><input type="hidden" name="action" id="action" value="add" /></form></div>
+</body>
+</html>
